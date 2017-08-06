@@ -28,7 +28,6 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-highlight": "^0.10.0",
     "styled-components": "^2.1.1"
   },
   "devDependencies": {
@@ -36,6 +35,7 @@
     "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
+    "react-highlight": "^0.10.0",
     "webpack": "^3.2.0",
     "webpack-dev-server": "^2.5.1"
   }
