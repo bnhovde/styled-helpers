@@ -12387,7 +12387,7 @@ __WEBPACK_IMPORTED_MODULE_2_styled_components__["c" /* injectGlobal */]`
   h1 {
     font-size: 2rem;
     letter-spacing: 3px;
-    margin: 2rem 0 0 0;
+    margin: 5rem 0 0 0;
     @media (min-width: 600px) {
       font-size: 3rem;
     }
@@ -12476,11 +12476,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1_react_dom__["render"])(__WEBPACK_IMPORTED_MOD
     ),
     '.'
   ),
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    'p',
-    null,
-    'Badges here!'
-  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'https://badge.fury.io/js/styled-helpers.svg' }),
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'h2',
     null,

@@ -20,7 +20,7 @@ injectGlobal`
   h1 {
     font-size: 2rem;
     letter-spacing: 3px;
-    margin: 2rem 0 0 0;
+    margin: 5rem 0 0 0;
     @media (min-width: 600px) {
       font-size: 3rem;
     }
