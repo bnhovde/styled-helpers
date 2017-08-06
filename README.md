@@ -4,6 +4,8 @@ A collection of useful helper components for your react app
 
 > Built using styled components
 
+[Docs and demo site](https://bnhovde.github.io/styled-helpers/)
+
 ### Installation
 
 ```sh
