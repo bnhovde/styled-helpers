@@ -91,8 +91,12 @@ const Footer = styled.footer`
 render((
   <Wrapper>
     <h1>Styled helpers</h1>
-    <LeadText>A collection of useful helper components for your react. <br />
-    Get it on <a href="https://github.com/bnhovde/styled-helpers">GitHub</a>.</LeadText>
+    <LeadText>A collection of useful UI components for your react app.<br />
+    Built with <a href="https://www.styled-components.com/">styled-components</a>.</LeadText>
+
+    <Highlight className='Bash'>
+      {'npm install styled-helpers'}
+    </Highlight>
 
     <img src="https://badge.fury.io/js/styled-helpers.svg" />
 
@@ -132,6 +136,9 @@ render((
       <li><code><pre>pt - Padding top    (integer, default null)</pre></code></li>
       <li><code><pre>pb - Padding bottom (integer, default null)</pre></code></li>
     </ul>
+
+    <h2>What? That's it?</h2>
+    <LeadText>Other components coming soon, yo!</LeadText>
 
     <Footer>
       <a href="https://github.com/bnhovde/styled-helpers">GitHub</a>

@@ -12466,15 +12466,20 @@ Object(__WEBPACK_IMPORTED_MODULE_1_react_dom__["render"])(__WEBPACK_IMPORTED_MOD
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     LeadText,
     null,
-    'A collection of useful helper components for your react. ',
+    'A collection of useful UI components for your react app.',
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-    'Get it on ',
+    'Built with ',
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'a',
-      { href: 'https://github.com/bnhovde/styled-helpers' },
-      'GitHub'
+      { href: 'https://www.styled-components.com/' },
+      'styled-components'
     ),
     '.'
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    __WEBPACK_IMPORTED_MODULE_3_react_highlight___default.a,
+    { className: 'Bash' },
+    'npm install styled-helpers'
   ),
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'https://badge.fury.io/js/styled-helpers.svg' }),
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -12666,6 +12671,16 @@ Object(__WEBPACK_IMPORTED_MODULE_1_react_dom__["render"])(__WEBPACK_IMPORTED_MOD
         )
       )
     )
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'h2',
+    null,
+    'What? That\'s it?'
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    LeadText,
+    null,
+    'Other components coming soon, yo!'
   ),
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     Footer,
