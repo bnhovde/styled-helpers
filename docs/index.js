@@ -94,7 +94,7 @@ render((
     <LeadText>A collection of useful helper components for your react. <br />
     Get it on <a href="https://github.com/bnhovde/styled-helpers">GitHub</a>.</LeadText>
 
-    <p>Badges here!</p>
+    <img src="https://badge.fury.io/js/styled-helpers.svg" />
 
     <h2>Block</h2>
     <LeadText>Generic spacing-helper.</LeadText>
