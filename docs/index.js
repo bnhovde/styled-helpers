@@ -102,6 +102,7 @@ render((
 
     <h2>Block</h2>
     <LeadText>Generic spacing-helper.</LeadText>
+
     <TextBlock>
       <p>The purpose of the Block component is to apply margin and padding to all components.</p>
       <p>In an ideal scenario, there is no margin/padding applied to any other component, instead wrap the element in Block and use this to generate the required margin/padding.</p>
@@ -109,6 +110,11 @@ render((
     </TextBlock>
 
     <h3>Examples</h3>
+
+    <Highlight className='xml'>
+      {'import { Block } from "styled-helpers";'}
+    </Highlight>
+
     <p>Default block (with side gutters)</p>
     <Highlight className='xml'>
       {'<Block>\n  <SomeComponent />\n</Block>'}

@@ -12517,6 +12517,11 @@ Object(__WEBPACK_IMPORTED_MODULE_1_react_dom__["render"])(__WEBPACK_IMPORTED_MOD
     'Examples'
   ),
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    __WEBPACK_IMPORTED_MODULE_3_react_highlight___default.a,
+    { className: 'xml' },
+    'import { Block } from "styled-helpers";'
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'p',
     null,
     'Default block (with side gutters)'
