@@ -2,7 +2,8 @@ import React from 'react';
 import { render } from 'react-dom';
 import styled, { injectGlobal } from 'styled-components';
 import Highlight from 'react-highlight';
-import { Block } from '../styled-helpers.js';
+import { Block, Drawer } from '../styled-helpers.js';
+import DrawerExample from './DrawerExample';
 
 injectGlobal`
   * { box-sizing: border-box }
@@ -142,6 +143,23 @@ render((
       <li><code><pre>pt - Padding top    (integer, default null)</pre></code></li>
       <li><code><pre>pb - Padding bottom (integer, default null)</pre></code></li>
     </ul>
+
+    <h2>Drawer</h2>
+    <LeadText>Animated drawer for menus, forms and other contents.</LeadText>
+
+    <TextBlock>
+      <p>The drawer is a UI-pattern used to reveal functionality on demand.</p>
+      <p>The drawer is toggled with the `visible` prop.</p>
+    </TextBlock>
+
+    <h3>Examples</h3>
+
+    <p>Default drawer</p>
+    <Highlight className='xml'>
+      {'<Drawer visible>\n  <SomeComponent />\n</Drawer>'}
+    </Highlight>
+
+    <DrawerExample />
 
     <h2>What? That's it?</h2>
     <LeadText>Other components coming soon, yo!</LeadText>
